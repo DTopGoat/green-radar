@@ -1,0 +1,33 @@
+name: refresh-scenes
+
+on:
+  schedule:
+    # Monday 16:30 UTC, which is 00:30 Tuesday in the Philippines.
+    - cron: "30 16 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh Sentinel-2 observations
+        run: python3 pipeline/fetch_scenes.py
+      - name: Commit new scenes
+        run: |
+          git config user.name "green-radar-bot"
+          git config user.email "159044895+DTopGoat@users.noreply.github.com"
+          git add public/data public/imagery
+          if git diff --cached --quiet; then
+            echo "No scene changes."
+          else
+            git commit -m "Refresh Sentinel-2 observations"
+            git push
+          fi

@@ -1,0 +1,14 @@
+node_modules
+.vercel
+.tanstack
+.grok
+screenshots
+artifacts
+*.log
+.DS_Store
+.nitro
+dist
+__pycache__
+*.pyc
+.node_modules.lock
+

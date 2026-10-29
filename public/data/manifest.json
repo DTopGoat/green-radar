@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-10-27T14:30:26Z",
+  "imageryThrough": "2026-10-16",
+  "imageryFrom": "2025-04-21",
+  "sceneCount": 27,
+  "boundarySource": "geoBoundaries gbOpen PHL ADM3 simplified, via NAMRIA / PSA / OCHA (HDX), CC BY 4.0",
+  "boundaryLicense": "CC BY 4.0",
+  "mosaic": "EOX Sentinel-2 cloudless 2024 (contains modified Copernicus Sentinel data 2024)",
+  "reflectance": "Copernicus Sentinel-2 L2A via Microsoft Planetary Computer",
+  "osm": {
+    "status": "unavailable",
+    "count": 0,
+    "detail": "Overpass request failed (HTTP Error 502: Bad Gateway). No field polygons were invented."
+  },
+  "notes": [
+    "Crop species are not classified in this release.",
+    "Field boundaries were not auto-segmented and were not invented.",
+    "Price forecasts are not published."
+  ]
+}
