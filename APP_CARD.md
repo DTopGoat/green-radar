@@ -12,5 +12,5 @@
 - **PSA:** 2020 provincial vegetable tonnes and 2016 cabbage/potato/carrot figures, transcribed, PDF not re-fetched (HTTP 403).
 - **Photos:** Wikimedia Commons, CC0 / CC BY / CC BY-SA, or “Photo unavailable”.
 - **Defaults:** Benguet sampling only; other CAR towns are boundaries. Basemap is the 2024 EOX mosaic. Theme follows the system until toggled. Confidence threshold 0.90. Price horizon not published.
-- **Known issues:** No Sentinel-1. No auto field segments. OSM Overpass failed (502), so no farm polygons. Some months are cloudy and absent. One Buguias sample point sat outside the Sentinel tile and was dropped. PSA numbers are not file-verified. Price panel is empty on purpose. Netlify is not connected. The weekly job can only add scenes after the repo exists and Actions is allowed to push.
+- **Known issues:** No Sentinel-1. No auto field segments. OSM Overpass failed (502), so no farm polygons. Some months are cloudy and absent. One Buguias sample point sat outside the Sentinel tile and was dropped. PSA numbers are not file-verified. Price panel is empty on purpose. Netlify is not connected.
 - **Next:** Ingest a real DA price file, add Sentinel-1 at the same pixels, then a crop model only with a labeled hold-out set.
