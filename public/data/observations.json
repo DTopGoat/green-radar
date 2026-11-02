@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T14:30:26Z",
-  "method": "NDVI = (B08 \u2212 B04) / (B08 + B04) from Sentinel-2 L2A surface reflectance at fixed 10 m pixels. A pixel is kept only when ESA scene classification (SCL) is vegetation (4), not-vegetated (5), or water (6). Up to four low-cloud scenes are tried per month, April 2025 through October 2026. No crop label is assigned.",
+  "generatedAt": "2026-11-02T23:40:51Z",
+  "method": "NDVI = (B08 \u2212 B04) / (B08 + B04) from Sentinel-2 L2A surface reflectance at fixed 10 m pixels. A pixel is kept only when ESA scene classification (SCL) is vegetation (4), not-vegetated (5), or water (6). Up to four low-cloud scenes are tried per month, from April 2025 through the refresh time. No crop label is assigned.",
   "sites": [
     {
       "id": "la-trinidad-valley",
@@ -241,6 +241,20 @@
           "clearCount": 4,
           "pixelCount": 4,
           "dominantScl": "not-vegetated"
+        },
+        {
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
+          "platform": "Sentinel-2C",
+          "cloudCover": 12.22,
+          "medianNdvi": 0.1934,
+          "minNdvi": 0.1581,
+          "maxNdvi": 0.4039,
+          "clearCount": 4,
+          "pixelCount": 4,
+          "dominantScl": "not-vegetated"
         }
       ],
       "scenes": [
@@ -317,39 +331,15 @@
           "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20251130T023051_R046_T51QTU_20251130T053714"
         },
         {
-          "date": "2026-02-03",
-          "datetime": "2026-02-03T02:28:19.024000Z",
-          "itemId": "S2B_MSIL2A_20260203T022819_R046_T50QRD_20260203T043624",
-          "tile": "50QRD",
-          "platform": "Sentinel-2B",
-          "cloudCover": 5.15,
-          "trueColor": "/imagery/la-trinidad-valley/2026-02-03-true.jpg",
-          "falseColor": "/imagery/la-trinidad-valley/2026-02-03-false.jpg",
-          "ndviColor": "/imagery/la-trinidad-valley/2026-02-03-ndvi.jpg",
-          "bbox": [
-            120.55,
-            16.43,
-            120.64,
-            16.51
-          ],
-          "center": [
-            120.587,
-            16.45725
-          ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.45725&lng=120.587&datasetId=S2_L2A_CDAS&fromTime=2026-02-03T00:00:00.000Z&toTime=2026-02-03T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.587%2C16.45725&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2B_MSIL2A_20260203T022819_R046_T50QRD_20260203T043624",
-          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260203T022819_R046_T50QRD_20260203T043624"
-        },
-        {
-          "date": "2026-05-21",
-          "datetime": "2026-05-21T02:15:29.024000Z",
-          "itemId": "S2B_MSIL2A_20260521T021529_R003_T51QTU_20260521T044004",
+          "date": "2026-03-27",
+          "datetime": "2026-03-27T02:16:01.025000Z",
+          "itemId": "S2C_MSIL2A_20260327T021601_R003_T51QTU_20260327T055219",
           "tile": "51QTU",
-          "platform": "Sentinel-2B",
-          "cloudCover": 18.67,
-          "trueColor": "/imagery/la-trinidad-valley/2026-05-21-true.jpg",
-          "falseColor": "/imagery/la-trinidad-valley/2026-05-21-false.jpg",
-          "ndviColor": "/imagery/la-trinidad-valley/2026-05-21-ndvi.jpg",
+          "platform": "Sentinel-2C",
+          "cloudCover": 1.07,
+          "trueColor": "/imagery/la-trinidad-valley/2026-03-27-true.jpg",
+          "falseColor": "/imagery/la-trinidad-valley/2026-03-27-false.jpg",
+          "ndviColor": "/imagery/la-trinidad-valley/2026-03-27-ndvi.jpg",
           "bbox": [
             120.55,
             16.43,
@@ -360,20 +350,20 @@
             120.587,
             16.45725
           ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.45725&lng=120.587&datasetId=S2_L2A_CDAS&fromTime=2026-05-21T00:00:00.000Z&toTime=2026-05-21T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.587%2C16.45725&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2B_MSIL2A_20260521T021529_R003_T51QTU_20260521T044004",
-          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260521T021529_R003_T51QTU_20260521T044004"
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.45725&lng=120.587&datasetId=S2_L2A_CDAS&fromTime=2026-03-27T00:00:00.000Z&toTime=2026-03-27T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.587%2C16.45725&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20260327T021601_R003_T51QTU_20260327T055219",
+          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20260327T021601_R003_T51QTU_20260327T055219"
         },
         {
-          "date": "2026-10-16",
-          "datetime": "2026-10-16T02:27:01.024000Z",
-          "itemId": "S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811",
-          "tile": "50QRD",
+          "date": "2026-06-18",
+          "datetime": "2026-06-18T02:25:31.024000Z",
+          "itemId": "S2C_MSIL2A_20260618T022531_R046_T51QTU_20260618T055711",
+          "tile": "51QTU",
           "platform": "Sentinel-2C",
-          "cloudCover": 0.94,
-          "trueColor": "/imagery/la-trinidad-valley/2026-10-16-true.jpg",
-          "falseColor": "/imagery/la-trinidad-valley/2026-10-16-false.jpg",
-          "ndviColor": "/imagery/la-trinidad-valley/2026-10-16-ndvi.jpg",
+          "cloudCover": 11.41,
+          "trueColor": "/imagery/la-trinidad-valley/2026-06-18-true.jpg",
+          "falseColor": "/imagery/la-trinidad-valley/2026-06-18-false.jpg",
+          "ndviColor": "/imagery/la-trinidad-valley/2026-06-18-ndvi.jpg",
           "bbox": [
             120.55,
             16.43,
@@ -384,9 +374,33 @@
             120.587,
             16.45725
           ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.45725&lng=120.587&datasetId=S2_L2A_CDAS&fromTime=2026-10-16T00:00:00.000Z&toTime=2026-10-16T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.587%2C16.45725&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811",
-          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811"
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.45725&lng=120.587&datasetId=S2_L2A_CDAS&fromTime=2026-06-18T00:00:00.000Z&toTime=2026-06-18T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.587%2C16.45725&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20260618T022531_R046_T51QTU_20260618T055711",
+          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20260618T022531_R046_T51QTU_20260618T055711"
+        },
+        {
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
+          "platform": "Sentinel-2C",
+          "cloudCover": 12.22,
+          "trueColor": "/imagery/la-trinidad-valley/2026-11-02-true.jpg",
+          "falseColor": "/imagery/la-trinidad-valley/2026-11-02-false.jpg",
+          "ndviColor": "/imagery/la-trinidad-valley/2026-11-02-ndvi.jpg",
+          "bbox": [
+            120.55,
+            16.43,
+            120.64,
+            16.51
+          ],
+          "center": [
+            120.587,
+            16.45725
+          ],
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.45725&lng=120.587&datasetId=S2_L2A_CDAS&fromTime=2026-11-02T00:00:00.000Z&toTime=2026-11-02T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.587%2C16.45725&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605"
         }
       ]
     },
@@ -600,6 +614,20 @@
           "clearCount": 1,
           "pixelCount": 1,
           "dominantScl": "not-vegetated"
+        },
+        {
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
+          "platform": "Sentinel-2C",
+          "cloudCover": 12.22,
+          "medianNdvi": 0.1043,
+          "minNdvi": 0.1043,
+          "maxNdvi": 0.1043,
+          "clearCount": 1,
+          "pixelCount": 1,
+          "dominantScl": "not-vegetated"
         }
       ],
       "scenes": [
@@ -628,15 +656,15 @@
           "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20250421T021621_R003_T51QTU_20250421T055213"
         },
         {
-          "date": "2026-10-16",
-          "datetime": "2026-10-16T02:27:01.024000Z",
-          "itemId": "S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811",
-          "tile": "50QRD",
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
           "platform": "Sentinel-2C",
-          "cloudCover": 0.94,
-          "trueColor": "/imagery/baguio-urban/2026-10-16-true.jpg",
-          "falseColor": "/imagery/baguio-urban/2026-10-16-false.jpg",
-          "ndviColor": "/imagery/baguio-urban/2026-10-16-ndvi.jpg",
+          "cloudCover": 12.22,
+          "trueColor": "/imagery/baguio-urban/2026-11-02-true.jpg",
+          "falseColor": "/imagery/baguio-urban/2026-11-02-false.jpg",
+          "ndviColor": "/imagery/baguio-urban/2026-11-02-ndvi.jpg",
           "bbox": [
             120.56,
             16.39,
@@ -647,9 +675,9 @@
             120.605,
             16.41
           ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.41&lng=120.605&datasetId=S2_L2A_CDAS&fromTime=2026-10-16T00:00:00.000Z&toTime=2026-10-16T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.605%2C16.41&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811",
-          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811"
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.41&lng=120.605&datasetId=S2_L2A_CDAS&fromTime=2026-11-02T00:00:00.000Z&toTime=2026-11-02T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.605%2C16.41&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605"
         }
       ]
     },
@@ -835,6 +863,20 @@
           "clearCount": 1,
           "pixelCount": 1,
           "dominantScl": "vegetation"
+        },
+        {
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
+          "platform": "Sentinel-2C",
+          "cloudCover": 12.22,
+          "medianNdvi": 0.6228,
+          "minNdvi": 0.6228,
+          "maxNdvi": 0.6228,
+          "clearCount": 1,
+          "pixelCount": 1,
+          "dominantScl": "vegetation"
         }
       ],
       "scenes": [
@@ -863,15 +905,15 @@
           "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20250421T021621_R003_T51QTU_20250421T055213"
         },
         {
-          "date": "2026-10-16",
-          "datetime": "2026-10-16T02:27:01.024000Z",
-          "itemId": "S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811",
-          "tile": "50QRD",
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
           "platform": "Sentinel-2C",
-          "cloudCover": 0.94,
-          "trueColor": "/imagery/trinidad-ridge/2026-10-16-true.jpg",
-          "falseColor": "/imagery/trinidad-ridge/2026-10-16-false.jpg",
-          "ndviColor": "/imagery/trinidad-ridge/2026-10-16-ndvi.jpg",
+          "cloudCover": 12.22,
+          "trueColor": "/imagery/trinidad-ridge/2026-11-02-true.jpg",
+          "falseColor": "/imagery/trinidad-ridge/2026-11-02-false.jpg",
+          "ndviColor": "/imagery/trinidad-ridge/2026-11-02-ndvi.jpg",
           "bbox": [
             120.53,
             16.46,
@@ -882,9 +924,9 @@
             120.56,
             16.48
           ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.48&lng=120.56&datasetId=S2_L2A_CDAS&fromTime=2026-10-16T00:00:00.000Z&toTime=2026-10-16T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.56%2C16.48&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811",
-          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261016T022701_R046_T50QRD_20261016T054811"
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.48&lng=120.56&datasetId=S2_L2A_CDAS&fromTime=2026-11-02T00:00:00.000Z&toTime=2026-11-02T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.56%2C16.48&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605"
         }
       ]
     },
@@ -907,7 +949,7 @@
           "lat": 16.79
         },
         {
-          "id": "buguias-town-4",
+          "id": "buguias-town-3",
           "lon": 120.815,
           "lat": 16.815
         }
@@ -920,11 +962,11 @@
           "tile": "51QTU",
           "platform": "Sentinel-2C",
           "cloudCover": 3.05,
-          "medianNdvi": 0.4157,
+          "medianNdvi": 0.3535,
           "minNdvi": 0.1991,
           "maxNdvi": 0.5131,
-          "clearCount": 4,
-          "pixelCount": 4,
+          "clearCount": 3,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -938,7 +980,7 @@
           "minNdvi": 0.298,
           "maxNdvi": 0.5249,
           "clearCount": 3,
-          "pixelCount": 4,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -948,12 +990,12 @@
           "tile": "51QTU",
           "platform": "Sentinel-2B",
           "cloudCover": 40.34,
-          "medianNdvi": 0.2973,
-          "minNdvi": 0.2964,
+          "medianNdvi": 0.2983,
+          "minNdvi": 0.2983,
           "maxNdvi": 0.2983,
-          "clearCount": 2,
-          "pixelCount": 4,
-          "dominantScl": "not-vegetated"
+          "clearCount": 1,
+          "pixelCount": 3,
+          "dominantScl": "vegetation"
         },
         {
           "date": "2025-08-04",
@@ -962,11 +1004,11 @@
           "tile": "51QTU",
           "platform": "Sentinel-2B",
           "cloudCover": 2.09,
-          "medianNdvi": 0.3454,
-          "minNdvi": 0.3013,
+          "medianNdvi": 0.3547,
+          "minNdvi": 0.3361,
           "maxNdvi": 0.5295,
-          "clearCount": 4,
-          "pixelCount": 4,
+          "clearCount": 3,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -980,21 +1022,7 @@
           "minNdvi": 0.3128,
           "maxNdvi": 0.3128,
           "clearCount": 1,
-          "pixelCount": 4,
-          "dominantScl": "vegetation"
-        },
-        {
-          "date": "2025-11-17",
-          "datetime": "2025-11-17T02:30:51.025000Z",
-          "itemId": "S2C_MSIL2A_20251117T023051_R003_T51QTU_20251117T050309",
-          "tile": "51QTU",
-          "platform": "Sentinel-2C",
-          "cloudCover": 44.96,
-          "medianNdvi": 0.4531,
-          "minNdvi": 0.4531,
-          "maxNdvi": 0.4531,
-          "clearCount": 1,
-          "pixelCount": 4,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -1008,7 +1036,7 @@
           "minNdvi": 0.2045,
           "maxNdvi": 0.5031,
           "clearCount": 3,
-          "pixelCount": 4,
+          "pixelCount": 3,
           "dominantScl": "not-vegetated"
         },
         {
@@ -1022,7 +1050,7 @@
           "minNdvi": 0.2098,
           "maxNdvi": 0.4915,
           "clearCount": 3,
-          "pixelCount": 4,
+          "pixelCount": 3,
           "dominantScl": "not-vegetated"
         },
         {
@@ -1032,25 +1060,25 @@
           "tile": "51QTU",
           "platform": "Sentinel-2C",
           "cloudCover": 1.07,
-          "medianNdvi": 0.2684,
+          "medianNdvi": 0.1953,
           "minNdvi": 0.1219,
           "maxNdvi": 0.4676,
-          "clearCount": 4,
-          "pixelCount": 4,
+          "clearCount": 3,
+          "pixelCount": 3,
           "dominantScl": "not-vegetated"
         },
         {
-          "date": "2026-04-11",
-          "datetime": "2026-04-11T02:15:29.024000Z",
-          "itemId": "S2B_MSIL2A_20260411T021529_R003_T51QTU_20260411T051727",
+          "date": "2026-04-16",
+          "datetime": "2026-04-16T02:16:01.025000Z",
+          "itemId": "S2C_MSIL2A_20260416T021601_R003_T51QTU_20260416T063315",
           "tile": "51QTU",
-          "platform": "Sentinel-2B",
-          "cloudCover": 8.37,
-          "medianNdvi": 0.2723,
-          "minNdvi": 0.1055,
-          "maxNdvi": 0.4365,
-          "clearCount": 4,
-          "pixelCount": 4,
+          "platform": "Sentinel-2C",
+          "cloudCover": 11.99,
+          "medianNdvi": 0.2297,
+          "minNdvi": 0.1243,
+          "maxNdvi": 0.317,
+          "clearCount": 3,
+          "pixelCount": 3,
           "dominantScl": "not-vegetated"
         },
         {
@@ -1060,11 +1088,11 @@
           "tile": "51QTU",
           "platform": "Sentinel-2B",
           "cloudCover": 18.67,
-          "medianNdvi": 0.3456,
-          "minNdvi": 0.2043,
+          "medianNdvi": 0.4302,
+          "minNdvi": 0.2611,
           "maxNdvi": 0.4801,
-          "clearCount": 4,
-          "pixelCount": 4,
+          "clearCount": 3,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -1078,7 +1106,7 @@
           "minNdvi": 0.1031,
           "maxNdvi": 0.5063,
           "clearCount": 3,
-          "pixelCount": 4,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -1088,11 +1116,11 @@
           "tile": "51QTU",
           "platform": "Sentinel-2C",
           "cloudCover": 36.55,
-          "medianNdvi": 0.4665,
+          "medianNdvi": 0.4151,
           "minNdvi": 0.3638,
-          "maxNdvi": 0.4818,
-          "clearCount": 3,
-          "pixelCount": 4,
+          "maxNdvi": 0.4665,
+          "clearCount": 2,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -1106,7 +1134,7 @@
           "minNdvi": 0.3198,
           "maxNdvi": 0.5355,
           "clearCount": 3,
-          "pixelCount": 4,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         },
         {
@@ -1120,7 +1148,21 @@
           "minNdvi": 0.2123,
           "maxNdvi": 0.5393,
           "clearCount": 3,
-          "pixelCount": 4,
+          "pixelCount": 3,
+          "dominantScl": "vegetation"
+        },
+        {
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
+          "platform": "Sentinel-2C",
+          "cloudCover": 12.22,
+          "medianNdvi": 0.3205,
+          "minNdvi": 0.1527,
+          "maxNdvi": 0.4798,
+          "clearCount": 3,
+          "pixelCount": 3,
           "dominantScl": "vegetation"
         }
       ],
@@ -1142,23 +1184,23 @@
             16.815
           ],
           "center": [
-            120.828,
-            16.80425
+            120.82233,
+            16.80233
           ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.80425&lng=120.828&datasetId=S2_L2A_CDAS&fromTime=2025-04-21T00:00:00.000Z&toTime=2025-04-21T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.828%2C16.80425&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20250421T021621_R003_T51QTU_20250421T055213",
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.80233&lng=120.82233&datasetId=S2_L2A_CDAS&fromTime=2025-04-21T00:00:00.000Z&toTime=2025-04-21T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.82233%2C16.80233&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20250421T021621_R003_T51QTU_20250421T055213",
           "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20250421T021621_R003_T51QTU_20250421T055213"
         },
         {
-          "date": "2026-10-15",
-          "datetime": "2026-10-15T02:21:31.024000Z",
-          "itemId": "S2A_MSIL2A_20261015T022131_R003_T50QRD_20261015T070615",
-          "tile": "50QRD",
-          "platform": "Sentinel-2A",
-          "cloudCover": 9.2,
-          "trueColor": "/imagery/buguias-town/2026-10-15-true.jpg",
-          "falseColor": "/imagery/buguias-town/2026-10-15-false.jpg",
-          "ndviColor": "/imagery/buguias-town/2026-10-15-ndvi.jpg",
+          "date": "2026-11-02",
+          "datetime": "2026-11-02T02:18:31.025000Z",
+          "itemId": "S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "tile": "51QTU",
+          "platform": "Sentinel-2C",
+          "cloudCover": 12.22,
+          "trueColor": "/imagery/buguias-town/2026-11-02-true.jpg",
+          "falseColor": "/imagery/buguias-town/2026-11-02-false.jpg",
+          "ndviColor": "/imagery/buguias-town/2026-11-02-ndvi.jpg",
           "bbox": [
             120.78,
             16.76,
@@ -1166,12 +1208,12 @@
             16.815
           ],
           "center": [
-            120.828,
-            16.80425
+            120.82233,
+            16.80233
           ],
-          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.80425&lng=120.828&datasetId=S2_L2A_CDAS&fromTime=2026-10-15T00:00:00.000Z&toTime=2026-10-15T23:59:59.999Z",
-          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.828%2C16.80425&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2A_MSIL2A_20261015T022131_R003_T50QRD_20261015T070615",
-          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2A_MSIL2A_20261015T022131_R003_T50QRD_20261015T070615"
+          "copernicusUrl": "https://browser.dataspace.copernicus.eu/?zoom=13&lat=16.80233&lng=120.82233&datasetId=S2_L2A_CDAS&fromTime=2026-11-02T00:00:00.000Z&toTime=2026-11-02T23:59:59.999Z",
+          "planetaryUrl": "https://planetarycomputer.microsoft.com/explore?c=120.82233%2C16.80233&z=13&v=2&d=sentinel-2-l2a&s=false&ae=S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605",
+          "stacUrl": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20261102T021831_R003_T51QTU_20261102T053605"
         }
       ]
     }
