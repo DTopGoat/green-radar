@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T23:40:51Z",
-  "imageryThrough": "2026-11-02",
+  "generatedAt": "2026-11-10T00:22:37Z",
+  "imageryThrough": "2026-11-07",
   "imageryFrom": "2025-04-21",
-  "sceneCount": 27,
+  "sceneCount": 28,
   "boundarySource": "geoBoundaries gbOpen PHL ADM3 simplified, via NAMRIA / PSA / OCHA (HDX), CC BY 4.0",
   "boundaryLicense": "CC BY 4.0",
   "mosaic": "EOX Sentinel-2 cloudless 2024 (contains modified Copernicus Sentinel data 2024)",
