@@ -10,15 +10,35 @@ function AccuracyPage() {
         <header>
           <h1 className="font-serif text-3xl">Accuracy</h1>
           <p className="mt-2 text-muted">
-            No crop model has been trained or held out. Precision and recall are not measured. Publishing a percentage
-            now would be fiction.
+            Current crop identification accuracy: <strong>not measured</strong>. No model has been trained or held out.
+            Publishing a percentage now would be fiction. Every place on the map is Unclassified.
           </p>
         </header>
+
+        <section className="rounded-2xl border border-line bg-cloud px-4 py-4">
+          <h2 className="font-serif text-xl">Current accuracy level</h2>
+          <p className="mt-2 text-sm">
+            With the data we have today (Sentinel-2 NDVI series and chips for reference sites including Atok Paoay and
+            Buguias Loo/Bangao pilots), we can measure vegetation vigor but <strong>cannot identify which crop is growing</strong>.
+          </p>
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-muted">
+            <li>Validation plots collected and held out: <strong>0</strong></li>
+            <li>Crops with a measured score ≥ 90%: <strong>0</strong></li>
+            <li>Species names shown on the map: <strong>none</strong> (90% rule withholds them)</li>
+            <li>Overall crop ID accuracy: <strong>N/A</strong> (no classifier exists)</li>
+          </ul>
+          <p className="mt-3 text-sm">
+            The 90% threshold in the code is a product rule, not a measured result. True accuracy will be computed only
+            after independent field visits compare system predictions against actual crops on held-out 100 m² plots.
+          </p>
+        </section>
+
         <section className="grid gap-3 sm:grid-cols-3">
           <Stat label="Validation plots" value="0" />
           <Stat label="Species threshold" value="90%" />
           <Stat label="Crops above the bar" value="0" />
         </section>
+
         <section className="space-y-2">
           <h2 className="font-serif text-2xl">The rule</h2>
           <p>
@@ -28,6 +48,7 @@ function AccuracyPage() {
             is the state of every place in this release.
           </p>
         </section>
+
         <section className="space-y-2">
           <h2 className="font-serif text-2xl">Why 10 m is not enough</h2>
           <ul className="list-disc space-y-2 pl-5 text-muted">
@@ -42,6 +63,7 @@ function AccuracyPage() {
             and a greenhouse mask. Free 10 m imagery alone will not do it for the vegetable list.
           </p>
         </section>
+
         <div className="overflow-x-auto">
           <table className="w-full text-left text-sm">
             <thead className="text-xs text-muted">
