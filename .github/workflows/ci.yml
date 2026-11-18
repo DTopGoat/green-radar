@@ -1,8 +1,9 @@
 name: ci
 
+# Disabled after Netlify site was deleted. No longer runs on push/PR.
+# Re-enable by restoring the original triggers if needed.
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   check:
